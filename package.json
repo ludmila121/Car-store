@@ -2,13 +2,38 @@
   "name": "car-store",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://ludmila121.github.io/car-store",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /car-store/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludmila121/car-store.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs":{
+    "url": "https://github.com/ludmila121/car-store.git/issues"
+  },
   "dependencies": {
-    "nodemon": "^3.0.1"
-  }
+    "@fontsource/plus-jakarta-sans": "^4.5.9",
+    "bootstrap": "^5.2.0",
+    "modern-normalize": "^1.1.0",
+    "swiper": "^8.3.2"
+  
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "path-browserify": "^1.0.1",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10",
+    "util": "^0.12.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
